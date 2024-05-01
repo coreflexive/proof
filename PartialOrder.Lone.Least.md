@@ -1,4 +1,4 @@
-The least element of a poset are unique if they exist.
+The least element of a poset is unique if it exists.
 
 ●	$\textbf{Lone} \, (\textbf{Least} \; A \; R \; B)$
 

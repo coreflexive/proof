@@ -8,7 +8,9 @@ The subset ordering of a power set is transitive.
 
 ≡		Prove $\forall$
 
-​	●	$X \subseteq_A Y \wedge Y \subseteq_A Z$
+​	●	$X \subseteq_A Y \wedge Y \subseteq_A Z$​
+
+​	✓	$X,Y,Z \in \mathcal{P}.A$
 
 ​	≡		Definition of subset, twice
 

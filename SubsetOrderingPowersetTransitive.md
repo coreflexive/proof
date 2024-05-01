@@ -16,7 +16,7 @@ The subset ordering of a power set is transitive.
 
 ​	≡		Distributivity
 
-​		$\forall(a :: a \in X \Rightarrow a \in Y \wedge a \in Y \Rightarrow a \in Z)$
+​		$\forall(a :: (a \in X \Rightarrow a \in Y) \wedge (a \in Y \Rightarrow a \in Z))$
 
 ​	≡		⇒ Transitive
 

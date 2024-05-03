@@ -1,40 +1,43 @@
-The subset ordering of a powerset is antisymmetric.
+**Theorem:** The subset ordering of a powerset is antisymmetric.
 
-●	$\textbf{Antisymmetric} \; \mathcal{P}.A \; \subseteq_A$
+**Proof:**
+```
+●	Antisymmetric 𝒫.A ⊆
 
-≡		Definition of antisymmetric
+≡		Definition of Antisymmetry
 
-​	$\forall(X,Y \in \mathcal{P} :: X \subseteq_A Y \wedge Y \subseteq X \Rightarrow X = Y)$
+	∀(X,Y ∈ 𝒫.A • X ⊆ Y ⋀ Y ⊆ X  ⇒  X = Y)
 
-≡		Prove $\forall$
+≡		Prove ∀
 
-​	●	$X \subseteq_A Y \wedge Y \subseteq X$
+	●	X ⊆ Y ⋀ Y ⊆ X
 
-​	✓	$X, Y \in \mathcal{P}.A$
+	i.	X,Y ∈ 𝒫.A
 
-​	≡		Definition of subset, twice
+	≡		Definition of ⊆ twice
 
-​		$\forall(a :: a \in X \Rightarrow a \in Y) \wedge \forall(a :: a \in Y \Rightarrow a \in X)$
+		∀(a • a ∈ X ⇒ a ∈ Y) ⋀ ∀(a • a ∈ Y ⇒ a ∈ X)
 
-​	≡		Distributivity
+	≡		∀ distributivity
 
-​		$\forall(a :: (a \in X \Rightarrow a \in Y) \wedge (a \in Y \Rightarrow a \in X))$
+		∀(a • (a ∈ X ⇒ a ∈ Y) ⋀ (a ∈ Y ⇒ a ∈ X))
 
-​	≡		Mutual implication
+	≡		Mutual implication
 
-​		$\forall(a :: a \in X \equiv a \in Y)$
+		∀(a • a ∈ X ≡ a ∈ Y)
 
-​	≡		Set equality
+	≡		Extensionality
 
-​		$X = Y$
+		X = Y
 
-​	$\square$
+	▢
 
-⋯	$\forall(X,Y \in \mathcal{P} :: X = Y \Rightarrow X = Y)$
+⋯	∀(X,Y ∈ 𝒫.A • X = Y  ⇒  X = Y)
 
-≡		⇒ Reflexive
+≡		⇒ reflexive
 
-​	$\text{true}$
+	true
+▢
+```
 
-$\square$
-
+🦃

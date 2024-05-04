@@ -1,40 +1,43 @@
 The $\leq$ relation on the natural numbers is reflexive.
 
-●	$\textbf{Reflexive} \; \N \; \leq$
+```
+●	Reflexive ℕ ≤
 
 ≡		Definition of reflexive
 
-​	$\forall(x \in \N : : x \leq x)$
+	∀(x ∈ ℕ • x ≤ x)
 
-≡		Establish $\forall$
+≡  		Establish ∀
 
-​	●	$x \leq x$
+	●	x ≤ x
 
-​	✓	$x \in \N$
+	1.	x ∈ ℕ
 
-​	≡		Definition of $\leq$
+	≡		Definition of ≤
 
-​		$\exists(k \in \N :: x + k = x)$
+		∃(k ∈ ℕ • x + k = x)
 
-​	⇐		$\exists$-Introduction
+	⇐		∃ Introduction
 
-​		$(x + k = x)[k := 0]$
+		(x + k = x)[k≔ 0]
+	
+	≡		Textual substitution
 
-​	≡		Textual substitution
+		x + 0 = x
 
-​		$x + 0 = x$
+	≡		Identity of +
 
-​	≡		Identity of +
+		true
 
-​		$\text{true}$
+	▢
 
-​	$\square$
+⋯	∀(x ∈ ℕ • true)
 
-⋯	$\forall(x \in \N : : \text{true})$
+≡	All true
 
-≡		All true
+	true
 
-​	$\text{true}$
+▢
+```
 
-$\square$
-
+🚁

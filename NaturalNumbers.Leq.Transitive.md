@@ -1,62 +1,67 @@
-The $\leq$ relation on the natural numbers is transitive.
+The ≤ relation on the natural numbers is transitive.
 
-●	$\textbf{Transitive} \; \N \; \leq$
+```
+●	Transitive ℕ ≤
 
-≡		Definition of transitive
+≡		Definition of Transitive
 
-​	$\forall(x,y,z \in \N : x \leq y \wedge y \leq z : x \leq z)$
+	∀(x,y,z ∈ ℕ • x ≤ y ⋀ y ≤ z ⇒ x ≤ z)
 
-≡		Establish $\forall$
+≡		Establish ∀
 
-​	●	$x \leq z$
+	●	x ≤ z
 
-​	i.	$x,y,z \in \N$
+	1.	x,y,z ∈ ℕ
 
-​	ii.	$x \leq y$
+	2.	x ≤ y
 
-​	iii.	$y \leq z$
+	3.	y ≤ z
 
-​	a.	$\exists(k \in \N :: x + k = y)$	{ by definition of $\leq$ on i. }
+	a.	∃(k ∈ ℕ • x + k = y)	{ by definition of ≤ on 1. }
 
-​	b.	$\exists(k \in \N :: y + k = z)$	{ by definition of $\leq$ on ii. }
+	b.	∃(k ∈ ℕ • y + k = z)	{ by definition of ≤ on 2. }
 
-​	›	Define $m \in \N$:
+	+	Define m ∈ ℕ:
 
-​		$x + m = y$
+		x + m = y
 
-​	›	Define $n \in \N$:
+	+	Define n ∈ ℕ:
 
-​		$y + n = z$
+		y + n = z
+	
+	c.	∃(k ∈ ℕ • x + k z)
 
-​	c.	$\exists(k :: x + k = z)$
+		{ Non-linear proof }
 
-​		●	$x + k = z$
+		●	x + k = z
 
-​		iv.	$k = ?$ // $k = m + n$
+		4.	k = ? // k = m + n 
 
-​		≡		Definition of $n$
+		≡		Definition of n
 
-​			$x + k = y + n$
+			x + k = y + n
 
-​		≡		Definition of $m$
+		≡		Definition of m
 
-​			$x + k = x + m + n$
+			x + k = x + m + n
 
-​		≡		Leibniz
+		⇐		Leibniz
 
-​			$k = m + n$
+			k = m + n
 
-​		≡	Assumption iv.
+		=		Assumption 4.
 
-​			$\text{true}$
+			true
 
-​		$\square$
+		▢
 
-​	$\Vdash$	Goal follows from observation c and the definition of $\leq$
+	⊩	Goal follolws from observation c. and the definition of ≤
 
-​	$\square$
+	▢
 
-⋯	$\text{true}$
+⋯	true
 
-$\square$
+▢
+```
 
+👹

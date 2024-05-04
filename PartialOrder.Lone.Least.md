@@ -1,29 +1,33 @@
-The least element of a poset is unique if it exists.
+A least element of a poset is unique if it exists.
 
-●	$\textbf{Lone} \, (\textbf{Least} \; A \; R \; B)$
+```
+●	Lone (Least A ⊑ B)
 
-$\equiv$		Definition of $\textbf{Lone}$
+≡		Definition of Lone
 
-​	$\forall(z,y \in B : (\textbf{Least} \; A \; R \; B).z \wedge (\textbf{Least} \; A \; R \; B).y : z = y)$
+	∀(z,y ∈ B • (Least A ⊑ B).z ⋀ (Least A ⊑ B).y ⇒ z = y)
 
-$\Leftarrow$		Antimonotonic $\forall$ range
+⇐		Antimonotonic ∀ range
 
-​	●	$(\textbf{Least} \; A \; R \; B).z \wedge (\textbf{Least} \; A \; R \; B).y$
+	●	(Least A ⊑ B).z ⋀ (Least A ⊑ B).y
 
-​	$\equiv$		Definition of $\textbf{Least}$, twice
+	≡		Definition of Least, twice
 
-​		$\forall(x \in B :: z \mathbin{R} x) \wedge \forall(x \in B :: y \mathbin{R} x)$
+		∀(x ∈ B • z ⊑ x) ⋀ ∀(x ∈ B • y ⊑ x)
 
-​	$\Rightarrow$		$\forall$ instantiation, twice
+	⇒		Instantiation, twice
 
-​		$z \mathbin{R} y \wedge y \mathbin{R} z$
+		z ⊑ y ⋀ y ⊑ z
+	
+	≡		⊑ Antisymmetric
 
-​	$\equiv$		$R$ antisymmetric
+		z = y
 
-​		$z = y$​
+	▢
 
-​	$\square$
+⋯	∀(z,y ∈ B • z = y ⇒ z = y)
 
-$\cdots$	$\forall(z,y \in B : z = y : z = y)$
+▢
+```
 
-$\square$
+💛

@@ -1,22 +1,25 @@
 Subset ordering of powerset is reflexive.
 
-●	$\textbf{Reflexive} \; \mathcal{P}.A \; \subseteq_A$
+```
+●	Reflexive 𝒫.A ⊆
 
-≡		Definition of Reflexive
+≡		Definition of reflexive
 
-​	$\forall(X \in \mathcal{P} :: X \subseteq_A X )$
+	∀(X ∈ 𝒫.A • X ⊆ X)
 
 ≡		Definition of subset
 
-​	$\forall(X \in \mathcal{P} :: \forall(a : a \in X \Rightarrow a \in X) )$​
+	∀(X ∈ 𝒫.A • ∀(a • a ∈ X ⇒ a ∈ X))
 
-≡		⇒ Reflexive
+≡		⇒ reflexive
 
-​	$\forall(X \in \mathcal{P} :: \forall(a : \text{true}) )$
+	∀(X ∈ 𝒫.A • ∀(a • true))
 
 ≡		Trivial
 
-​	$\text{true}$
+	true
 
-$\square$
+▢
+```
 
+👾

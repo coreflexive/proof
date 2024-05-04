@@ -1,40 +1,43 @@
 The subset ordering of a power set is transitive.
 
-●	$\textbf{Transitive} \; \mathcal{P}.A \; \subseteq_A$
+```
+●	Transitive 𝒫.A ⊆
 
 ≡		Definition of transitive
 
-​	$\forall(X,Y,Z \in \mathcal{P}.A : X \subseteq_A Y \wedge Y \subseteq_A Z : X \subseteq_A Z)$
+	∀(X,Y,Z ∈ 𝒫.A • X ⊆ Y ⋀ Y ⊆ Z ⇒ X ⊆ Z)
 
-≡		Prove $\forall$
+≡		Establish ∀
 
-​	●	$X \subseteq_A Y \wedge Y \subseteq_A Z$​
+	●	X ⊆ Y ⋀ Y ⊆ Z
 
-​	✓	$X,Y,Z \in \mathcal{P}.A$
+	1.	X,Y,Z ∈ 𝒫.A
 
-​	≡		Definition of subset, twice
+	≡		Definition of subset, twice
 
-​		$\forall(a :: a \in X \Rightarrow a \in Y) \wedge \forall(a :: a \in Y \Rightarrow a \in Z)$
+		∀(a ● a ∈ X ⇒ a ∈ Y) ⋀ ∀(a ● a ∈ Y ⇒ a ∈ Z)
+	
+	≡		∀ distributive
 
-​	≡		Distributivity
+		∀(a ● a ∈ X ⇒ a ∈ Y ⋀ a ∈ Y ⇒ a ∈ Z)
 
-​		$\forall(a :: (a \in X \Rightarrow a \in Y) \wedge (a \in Y \Rightarrow a \in Z))$
+	≡		⇒ transitive
 
-​	≡		⇒ Transitive
+		∀(a ● a ∈ X ⇒ a ∈ Z)
 
-​		$\forall(a :: a \in X  \Rightarrow a \in Z)$
+	≡		Definition of subset
 
-​	≡		Definition of subset
+		X ⊆ Z
 
-​		$X \subseteq_A Z$
+	▢
 
-​	$\square$
+⋯	∀(X,Y,Z ∈ 𝒫.A • true)
 
-⋯	$\forall(X,Y,Z \in \mathcal{P}.A : X \subseteq_A Z : X \subseteq_A Z)$
+≡		Trivial
 
-≡		Reflexivity
+	true
 
-​	$\text{true}$
+▢
+```
 
-$\square$
-
+🍄

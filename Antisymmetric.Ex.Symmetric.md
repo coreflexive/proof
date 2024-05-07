@@ -15,7 +15,7 @@ A symmetric binary operator gives rise to an antisymmetric relation 🤯
 
 	●	x ⊑ y  ⋀  y ⊑ x
 
-	≡		Definition of ⊑
+	≡		Assumption 1.
 
 		x ⊓ y = x  ⋀  y ⊓ x = y
 

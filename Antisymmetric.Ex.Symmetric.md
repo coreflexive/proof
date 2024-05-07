@@ -29,7 +29,7 @@ A symmetric binary operator gives rise to an antisymmetric relation 🤯
 
 	▢
 
-⋯	∀(x,y ∈ A • x ⊑ y  ⋀  y ⊑ x  ⇒  x = y)
+⋯	∀(x,y ∈ A • true)
 
 ≡		Trivial
 

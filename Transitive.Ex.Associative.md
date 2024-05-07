@@ -45,7 +45,7 @@ An associative binary operator gives rise to a transitive relation.
 
 		▢
 
-	⊩		Goal follows from observation c. by the defintion of ⊑
+	⊩		Goal follows from observation c. by Assumption 1.
 
 	▢
 

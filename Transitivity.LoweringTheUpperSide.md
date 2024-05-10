@@ -24,6 +24,8 @@ Proof:
 ≡		Definition of Transitive
 
 	Transitive ⊑
+
+▢
 ```
 
 🚡

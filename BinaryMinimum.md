@@ -26,7 +26,7 @@ This document presents a construction of a program that selects the minimum of t
 =		< ↓ calculus >
 
 	if a ≤ b → m ≔ a
-	▯ a ≤ b = b → m ≔ b
+	▯ b ≤ a = b → m ≔ b
 	fi
 
 ▢
@@ -37,7 +37,7 @@ Summarising:
 ```
 m ≔ a ↓ b 
 ⊑	if a ≤ b → m ≔ a
-	▯ a ≤ b = b → m ≔ b
+	▯ b ≤ a = b → m ≔ b
 	fi  
 ```
 

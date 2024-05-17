@@ -19,6 +19,12 @@ This document presents a construction of a program that selects the minimum of t
 
 ⊑		< Alternation >
 
+	if a ↓ b = a → m : [a ↓ b = a, m = a ↓ b]
+	▯ a ↓ b = b → m : [a ↓ b = b, m = a ↓ b]
+	fi
+
+=		< Assignment >
+
 	if a ↓ b = a → m ≔ a
 	▯ a ↓ b = b → m ≔ b
 	fi

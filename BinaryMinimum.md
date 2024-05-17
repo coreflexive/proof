@@ -43,7 +43,7 @@ Summarising:
 ```
 m ≔ a ↓ b 
 ⊑	if a ≤ b → m ≔ a
-	▯ b ≤ a = b → m ≔ b
+	▯ b ≤ a → m ≔ b
 	fi  
 ```
 

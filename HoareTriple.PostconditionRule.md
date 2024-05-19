@@ -5,17 +5,25 @@ Proof that we can strengthen a postcondition.
 ```
 ●	{Q} S {A} ⋀ (A ⇒ R) ⇒ {Q} S {R}
 
-≡		< ⋀ symmetric >
+⊩		< Prove ⇒ >
 
-	(A ⇒ R) ⋀ {Q} S {A}  ⇒ {Q} S {R}
+	●	{Q} S {A}
 
-≡		< Shunting >
+	1.	A ⇒ R
 
-	(A ⇒ R) ⇒ ({Q} S {A}  ⇒ {Q} S {R})
+	≡		< Definition of Hoare Triple >
 
-≡		< WP Monotonic >
+		Q ⇒ wp.S.A
 
-	true
+	⇒		< WP Monotonic, using assumption 1. >
+
+		Q ⇒ wp.S.R
+
+	≡		< Definition of Hoare Triple >
+
+		{Q} S {R}
+
+	▢
 
 ▢
 ```
